@@ -1,0 +1,13 @@
+# Apple Device
+.DS_*
+
+# log folder and file
+*.log
+logs/
+
+# NodeJS
+node_modules/
+
+# NextJS
+.next/
+next-env.d.ts
