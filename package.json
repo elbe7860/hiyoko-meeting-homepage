@@ -1,0 +1,22 @@
+{
+  "name": "hiyoko-meeting-homepage",
+  "version": "0.0.0",
+  "description": "🐥の集会のホームページ",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "typescript": "5.2.2"
+  },
+  "license": "MIT"
+}
