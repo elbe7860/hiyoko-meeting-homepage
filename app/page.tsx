@@ -1,4 +1,5 @@
 import MemberIntroduction from "@/components/organisms/MemberIntroduction";
+import EventInformation from "@/components/organisms/EventInformation";
 
 const members = [
   { iconSrc: "/members/kyotan.ico", name: "Kyotan", postName: "リーダー" },
@@ -16,6 +17,11 @@ const members = [
   { iconSrc: "/members/ban.ico", name: "ばん", postName: "妖精" },
 ]
 
+const eventInformations = [
+  {date: "2023/10/31", eventTitle: "第二回！🐥の集会青問", description: "🐥の集会の青問が開催されます！今回は「ハロウィン」をテーマに作問しています！"},
+  {date: "2023/9/3", eventTitle: "第一回！🐥の集会青問", description: "🐥の集会の青問が初開催されます！"},
+]
+
 export default function Home() {
   return (
     <>
@@ -24,6 +30,14 @@ export default function Home() {
       </h1>
 
       <h2 className="text-3xl font-bold mx-4">
+        イベント告知
+      </h2>
+
+      <div className="px-4 py-2 h-72">
+        <EventInformation eventInformations={eventInformations} />
+      </div>
+
+      <h2 className="mt-5 text-3xl font-bold mx-4">
         メンバー紹介
       </h2>
 
