@@ -18,7 +18,7 @@ const members = [
 ]
 
 const eventInformations = [
-  {date: "2023/10/31", eventTitle: "第二回！🐥の集会青問", description: "🐥の集会の青問が開催されます！今回は「ハロウィン」をテーマに作問しています！"},
+  {date: "2023/10/29", eventTitle: "第二回！🐥の集会青問", description: "🐥の集会の青問が開催されます！今回は「ハロウィン」をテーマに作問しています！"},
   {date: "2023/9/3", eventTitle: "第一回！🐥の集会青問", description: "🐥の集会の青問が初開催されます！"},
 ]
 
