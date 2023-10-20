@@ -10,8 +10,8 @@ export default function MemberCard({
   postName,
 }: MemberCardProps) {
   return (
-    <div className="flex flex-col">
-      <img className="w-32" src={iconSrc} alt="メンバーアイコン" />
+    <div className="flex flex-col w-32">
+      <img src={iconSrc} alt="メンバーアイコン" />
       <span className="text-center text-lg text-blue-500">{name}</span>
       <span className="text-center text-sm text-gray-500">{postName}</span>
     </div>

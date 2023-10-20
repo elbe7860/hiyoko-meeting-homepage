@@ -1,5 +1,6 @@
 import MemberIntroduction from "@/components/organisms/MemberIntroduction";
 import EventInformation from "@/components/organisms/EventInformation";
+import ArtGallary from "@/components/organisms/ArtGallary";
 
 const members = [
   { iconSrc: "/members/kyotan.ico", name: "Kyotan", postName: "リーダー" },
@@ -20,6 +21,11 @@ const members = [
 const eventInformations = [
   {date: "2023/10/29", eventTitle: "第二回！🐥の集会青問", description: "🐥の集会の青問が開催されます！今回は「ハロウィン」をテーマに作問しています！"},
   {date: "2023/9/3", eventTitle: "第一回！🐥の集会青問", description: "🐥の集会の青問が初開催されます！"},
+]
+
+const artGallaryCards = [
+  {url: "/artgallary/86/1.png", drawingBy: "ハチロク"},
+  {url: "/artgallary/86/2.png", drawingBy: "ハチロク"},
 ]
 
 export default function Home() {
@@ -43,6 +49,14 @@ export default function Home() {
 
       <div className="px-4 py-2">
         <MemberIntroduction members={members} />
+      </div>
+
+      <h2 className="mt-5 text-3xl font-bold mx-4">
+        イラストギャラリー
+      </h2>
+
+      <div className="py-2">
+        <ArtGallary arts={artGallaryCards} />
       </div>
     </>
   )

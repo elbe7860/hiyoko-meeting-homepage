@@ -5,7 +5,7 @@ export type MemberIntroductionProps = {
 }
 
 export default function MemberIntroduction({ members }: MemberIntroductionProps) {
-  return <div className="flex flex-wrap gap-x-8 gap-y-4">
+  return <div className="grid grid-cols-2 md:grid-cols-9">
     {
       members.map(member => {
         return <MemberCard
