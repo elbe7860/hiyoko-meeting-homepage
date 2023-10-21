@@ -15,7 +15,8 @@ const members = [
   // {iconSrc: "/members/nyan.ico", name: "ニャン", postName: "友情出演枠"},
   { iconSrc: "/members/wawawa.ico", name: "わわわ", postName: "チー牛" },
   { iconSrc: "/members/namiusa.ico", name: "神代小蒔", postName: "影武者" },
-  { iconSrc: "/members/ban.ico", name: "ばん", postName: "妖精" },
+  { iconSrc: "/members/ban.ico", name: "ばん", postName: "妖精長" },
+  { iconSrc: "/members/orochin.ico", name: "おろちん", postName: "妖精" },
 ]
 
 const eventInformations = [
@@ -26,6 +27,7 @@ const eventInformations = [
 const artGallaryCards = [
   {url: "/artgallary/86/1.png", drawingBy: "ハチロク"},
   {url: "/artgallary/86/2.png", drawingBy: "ハチロク"},
+  {url: "/artgallary/86/3.png", drawingBy: "ハチロク"},
 ]
 
 export default function Home() {
