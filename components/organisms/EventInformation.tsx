@@ -12,6 +12,7 @@ export default function EventInformation({
           return <EventCard
             date={x.date}
             eventTitle={x.eventTitle}
+            eventBanner={x.eventBanner}
             description={x.description}
             key={x.eventTitle}
           />
