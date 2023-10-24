@@ -4,7 +4,7 @@
   "description": "🐥の集会のホームページ",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && touch ./out/.nojekyll && echo 'hiyoko-meeting.com' > ./out/CNAME",
+    "build": "next build && touch ./docs/.nojekyll && echo 'hiyoko-meeting.com' > ./docs/CNAME",
     "start": "next start",
     "lint": "next lint"
   },
