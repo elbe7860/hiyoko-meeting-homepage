@@ -159,16 +159,7 @@ export default function GuessTheSong() {
         </div>
 
         <p id="command" className="py-2 px-4 border border-gray-300">
-          m!p guess the song spotify:playlist:
-          {extractSpotifyPlaylistId(spotifyUrl)}
-          --rounds={rounds}
-          --victory-score=
-          {isAllRound
-            ? rounds * CORRECT_ANSWER_POINT
-            : victoryScore * CORRECT_ANSWER_POINT}
-          --round-delay={roundDelay}
-          --round-length={roundLength}
-          --match-percentage={matchPercentage}
+          m!p guess the song spotify:playlist:{extractSpotifyPlaylistId(spotifyUrl)} --rounds={rounds} --victory-score={isAllRound ? rounds * CORRECT_ANSWER_POINT : victoryScore * CORRECT_ANSWER_POINT} --round-delay={roundDelay} --round-length={roundLength} --match-percentage={matchPercentage}
         </p>
 
         <button
