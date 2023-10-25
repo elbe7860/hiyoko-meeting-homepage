@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import MemberIntroduction from "@/components/organisms/MemberIntroduction";
 import EventInformation from "@/components/organisms/EventInformation";
 import ArtGallary from "@/components/organisms/ArtGallary";
@@ -51,6 +53,15 @@ export default function Home() {
 
       <div className="px-4 py-2">
         <MemberIntroduction members={members} />
+      </div>
+
+      <h2 className="mt-5 text-3xl font-bold mx-4">
+        関連リンク
+      </h2>
+
+      <div className="flex flex-col gap-y-4 px-4 py-2">
+        <Link className="w-full md:w-1/3 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" href="/links/huaa-onichan">ふあぁっ!お兄ちゃん...それやばいよぉ</Link>
+        <Link className="w-full md:w-1/3 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" href="/links/emiriko-water">ケイト様にひたすら水を飲まされるエミリコ</Link>
       </div>
 
       <h2 className="mt-5 text-3xl font-bold mx-4">
