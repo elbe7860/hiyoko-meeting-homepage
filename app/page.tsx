@@ -14,6 +14,7 @@ const members = [
   { iconSrc: "/members/hebia.ico", name: "ヘビア", postName: "レプタイラー" },
   { iconSrc: "/members/86.ico", name: "ハチロク", postName: "年齢制限枠" },
   { iconSrc: "/members/dark-boruganon.ico", name: "ダークボルガノン", postName: "？？？" },
+  { iconSrc: "/members/kita.ico", name: "喜多ちゃん", postName: "デリシャスマイル担当" },
   // {iconSrc: "/members/nyan.ico", name: "ニャン", postName: "友情出演枠"},
   { iconSrc: "/members/wawawa.ico", name: "わわわ", postName: "チー牛" },
   { iconSrc: "/members/jindai.ico", name: "神代小蒔", postName: "影武者" },
